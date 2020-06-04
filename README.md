@@ -2,6 +2,14 @@
 
 Anomaly (Diseases) Detection in Wireless Capsule Endoscope Images using UNET and RCNN
 
+Used Tools:
+-Python3
+-Tensorflow
+-Keras
+-UNET
+-Deep Learning (CNN)
+
+
 I have a dataset consisting of images captured by WCE(Wireless Capsule Endoscope). 
 This contains images of disease and their location ( In annocation folder which is binary images). 
 Also normal images of that part (Without Disease). So task is to identify the disease in the WCE image (if it is present) and also their location.
