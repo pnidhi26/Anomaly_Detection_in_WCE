@@ -2,7 +2,8 @@
 
 Anomaly (Diseases) Detection in Wireless Capsule Endoscope Images using UNET and RCNN
 
-Used Tools:
+# Used Tools:
+
 -Python3
 -Tensorflow
 -Keras
@@ -15,7 +16,7 @@ This contains images of disease and their location ( In annocation folder which 
 Also normal images of that part (Without Disease). So task is to identify the disease in the WCE image (if it is present) and also their location.
 
 
-Used Model:
+# Used Model:
 The UNET was developed by Olaf Ronneberger et al. for Bio Medical Image Segmentation. 
 The architecture contains two paths. First path is the contraction path (also called as the encoder) which is used to capture the context in the image. 
 The encoder is just a traditional stack of convolutional and max pooling layers. The second path is the symmetric expanding path (also called as the decoder) which is used to enable precise localization using transposed convolutions. 
