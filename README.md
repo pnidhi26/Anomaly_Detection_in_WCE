@@ -2,7 +2,7 @@
 
 Anomaly (Diseases) Detection in Wireless Capsule Endoscope Images using UNET and RCNN
 
-# Used Tools:
+## Used Tools:
 
 -Python3
 -Tensorflow
